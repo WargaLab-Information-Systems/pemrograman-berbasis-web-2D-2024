@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: auto; /* Push the ul to the right */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 120px;
+    z-index: 1;
+    margin-top: 0; /* Remove the top margin */
+    padding-top: 10px; /* Add padding to align with the Services link */
+    left: 0; /* Align dropdown-content with Services link */
+}
+
+.dropdown-content a {
+    display: block;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    width: 100%; 
+    text-align: left; 
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd; 
+}
+
+.content {
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; 
+}
+
+.image-overlay {
+    position: absolute;
+    top: 10%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fff;
+}
+
+.image-overlay h1 {
+    font-size: 72px; /* Change font size to make "SMK IKHLAS JAWILAN" bigger */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
