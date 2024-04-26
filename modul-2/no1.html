@@ -27,7 +27,6 @@
     top: 0;
   }
 
-
   .navbar a {
     color: white;
     text-decoration: none;
@@ -54,15 +53,15 @@
     background-color: #24a8e0;
     min-width: 100px;
     z-index: 1;
-    text-align: left; /* Text sejajar ke kiri */
-    padding: 10px 0; /* Padding atas bawah pada dropdown */
-    margin-left: -20px; /* Menyesuaikan posisi dropdown-content dengan BERANDA */
+    text-align: left;
+    padding: 10px 0;
+    margin-left: -20px;
   }
 
   .dropdown-content a {
     color: #ffffff;
     display: block;
-    padding: 10px 20px; /* Padding kiri kanan pada setiap link */
+    padding: 10px 20px;
     text-decoration: none;
     transition: all 0.3s ease;
   }
@@ -106,52 +105,26 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .informasi {
-    display: flex;
-    justify-content: space-between; /* Mengatur jarak antar kolom */
-    width: 80%;
-    margin: 20px auto; /* Memberikan margin atas dan bawah, serta mengatur posisi horizontal menjadi di tengah */
-    overflow-y: auto;
-    height: 50vh;
-  }
-
-  .informasi > div {
-    background-color: rgba(27, 23, 23, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 30%; /* Lebar kolom diatur 48% agar ada jarak antar kolom */
-  }
-
-  .colom {
-    background-color: rgba(27, 23, 23, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 50%; /* Lebar kolom diatur 48% agar ada jarak antar kolom */
-    position: relative;
-  }
-
-  .informasi > div img,
-  .colom img {
-    width: 50%;
-    height: 50%;
-    object-fit: cover; /* Memastikan foto tetap proporsional */
+  main {
+    max-width: 1200px; /* Lebar maksimum main */
     margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
-  @media (max-width: 768px) {
-    .profile {
-      display: none;
-    }
+  section {
+    width: 48%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: rgb(104, 104, 104);
+  }
 
-    .informasi {
-      width: 100%;
-    }
-
-    .informasi > div {
-      width: 100%;
-    }
+  section img {
+    width: 50%; /* Lebar gambar mengikuti lebar kotak */
+    height: 50%; /* Tinggi gambar mengikuti tinggi kotak */
   }
 </style>
 </head>
@@ -187,9 +160,9 @@
   <div class="TULISAN">
     <h1>RUMAH MAKAN DONZZ</h1>
   </div>
-  <div class="informasi">
-    <div>
-      <h2>Informasi 1</h2>
+  <main>
+    <section>
+      <h2>RENDANG</h2>
       <p>
         Rendang adalah masakan tradisional Indonesia yang berasal dari Minangkabau, Sumatera Barat. 
         Makanan ini terkenal di Indonesia bahkan hingga mancanegara sebagai salah satu masakan terenak di dunia. 
@@ -197,10 +170,9 @@
         hingga kuahnya mengering dan bumbunya meresap ke dalam daging.
       </p>
       <img src="rndang.png" alt="Foto Informasi 1" />
-    </div>
-  <div class="colom">
-    <div>
-      <h2>Informasi 2</h2>
+    </section>
+    <section>
+      <h2>GULE</h2>
       <p>
           Makanan gule adalah masakan khas Indonesia yang berasal dari Jawa Tengah.
            Makanan ini terbuat dari daging yang dimasak dengan bumbu rempah-rempah khas Indonesia seperti bawang merah, 
@@ -208,8 +180,8 @@
            sehingga menghasilkan kuah kental yang kaya rasa.psum
       </p>
       <img src="GULE.png" alt="Foto Informasi 2" />
-    </div>
-  </div>
-  
+    </section>
+  </main>
+</div>
 </body>
 </html>
