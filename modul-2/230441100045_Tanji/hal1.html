@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin-left: auto; /* Push the ul to the right */
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .dropdown {
+            position: relative;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 120px;
+            z-index: 1;
+            margin-top: 0; /* Remove the top margin */
+            padding-top: 10px; /* Add padding to align with the Services link */
+            left: 0; /* Align dropdown-content with Services link */
+        }
+
+        .dropdown-content a {
+            display: block;
+            color: #ffffff;
+            padding: 10px;
+            text-decoration: none;
+            width: 100%; /* Ensure full width */
+            text-align: left; /* Align text to the left */
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd; /* Change background color on hover */
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .image-container {
+            position: relative;
+            width: 100%;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover; /* Make sure the image covers the entire container */
+        }
+
+        .image-overlay {
+            position: absolute;
+            top: 10%; /* Put the overlay at the vertical center */
+            left: 50%; /* Put the overlay at the horizontal center */
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            color: #fff;
+        }
+
+        .image-overlay h1 {
+            font-size: 72px; /* Change font size to make "SMK IKHLAS JAWILAN" bigger */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="header-title">
+                <h1>SMK IKHLAS MULTIPROGRAM JAWILAN</h1>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                    <a href="#">Services</a>
+                    <div class="dropdown-content">
+                        <a href="#">Service 1</a>
+                        <a href="#">Service 2</a>
+                        <a href="#">Service 3</a>
+                    </div>
+                </li>
+                <li class ="dropdown">
+                    <a href="#">Media Sosial</a>
+                <div class="dropdown-content">
+                    <a href="https://www.instagram.com/ikhlas.verse/">Instagram</a>
+                    <a href="https://www.facebook.com/p/SMK-Ikhlas-Jawilan-100063701084984/">Facebook</a>
+                    <a href="https://www.tiktok.com/@ikhlas.verse?lang=id-ID">Tik tok</a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div class="image-container">
+            <img src="SMK.png" alt="">
+            <div class="image-overlay">
+                <h1 style="font-size: 50px;">SMK IKHLAS JAWILAN</h1> <!-- Added inline style to change font size -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <hr>
+        <p>©Copyright None. All Rights Reserved</p>
+        <p>Designed by Jii.Tan</p>
+    </footer>
+</body>
+</html>
