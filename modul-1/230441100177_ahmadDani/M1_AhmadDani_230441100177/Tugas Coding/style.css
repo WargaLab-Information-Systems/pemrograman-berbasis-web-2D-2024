@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-inline: 64px;
+}
+
+.d-block {
+  display: block;
+}
+
+.p-block {
+  padding-block: 57px;
+}
+
+.p-top {
+  padding-top: 57px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Header dan Nav */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 16px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+  backdrop-filter: blur(10px);
+}
+
+header nav ul {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Home Page */
+.home {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.home figure img {
+  width: 300px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 20%;
+  border: 1px solid rgb(196, 196, 196);
+  box-shadow: 10px 10px 30px rgb(224, 224, 224);
+}
+
+.home p {
+  margin-top: 5px;
+}
+
+.home h3 {
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.home ol {
+  margin-left: 35px;
+}
+
+/* Mahasiswa Page */
+.mahasiswa h1 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+table thead {
+  background-color: rgb(211, 211, 211);
+}
+
+table tr:nth-child(even):hover {
+  background-color: rgb(211, 211, 211);
+}
+
+/* Slicing UI */
+.slicing {
+  padding-inline: 70px;
+  padding-top: 60px;
+  margin-bottom: 30px;
+}
+
+.slicing .title {
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+
+.slicing p:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+.slicing .get-started {
+  margin-right: 30px;
+  padding-block: 10px;
+  padding-inline: 20px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.slicing .btn-video {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.slicing img {
+  width: 400px;
+}
+
+.slicing h3 {
+  margin-bottom: 15px;
+}
+
+.slicing input {
+  width: 540px;
+  height: 28px;
+  margin-block: 15px;
+  border-radius: 0px;
+  outline: none;
+  border: 1px solid black;
+}
+
+.footer-slicing {
+  padding-inline: 70px;
+  padding-block: 20px;
+  border-top: 1px solid black;
+}
+
+.footer-slicing p {
+  margin-bottom: 20px;
+}
