@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open file3.html",
+            "file": "c:\\Users\\ASUS\\Downloads\\SEMESTER 2\\pemrograman-berbasis-web-2D-2024\\modul-1\\file3.html"
+        }
+    ]
+}
