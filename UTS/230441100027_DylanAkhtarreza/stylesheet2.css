@@ -1,0 +1,12 @@
+#contact {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+}
+#contact .container-contact {
+    padding: 60px 80px 30px 80px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat();
+
+}
