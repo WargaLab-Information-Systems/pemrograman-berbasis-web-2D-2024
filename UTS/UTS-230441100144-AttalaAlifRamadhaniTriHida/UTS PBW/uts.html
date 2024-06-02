@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 20px;
+            font-size: 15px;
+        }
+        html {
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        nav {
+            z-index: 100;
+            background: linear-gradient(to right, #fff, #280264);
+            text-align: center;
+            position: fixed;
+            border-bottom: 1px solid #0f0101;
+            line-height: 60px;
+            width: 100%;
+        }
+        h5 {
+            font-size: 15px;
+            text-align: left;
+            padding-left: 40px;
+        }
+        .layar-dalam {
+            width: 1000px;
+            margin: auto;
+        }
+        .layar-penuh {
+            width: 100%;
+        }
+        section {
+            padding: 50px 0px 50px 0px;
+        }
+        section h3 {
+            font-size: 30px;
+        }
+        section h3::after {
+            content: "";
+            border-bottom: 5px solid #c86b85;
+            width: 52px;
+            display: block;
+            margin: 20px auto;
+        }
+        #blog {
+            text-align: center;
+        }
+        section p.ringkasan {
+            font-style: italic;
+            font-size: 18px;
+            color: #ababab;
+            padding-top: 0px;
+        }
+        section .konten-isi p {
+            font-style: normal;
+        }
+        section.abuabu {
+            background-color: #f5f6f6;
+        }
+        .blog {
+            padding-top: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .blog .area {
+            width: 47%;
+            box-shadow: 0px -10px 30px #ccc;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .blog div.area div {
+            width: 50%;
+        }
+        .blog .area .gambar {
+            border-radius: 5px 0px 0px 5px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+        }
+        .blog .area .text article {
+            padding: 40px;
+        }
+        .blog .area .text article h4 {
+            margin: 0px;
+        }
+        .blog .area .text article a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.5s ease;
+        }
+        .blog .area .text article a:hover {
+            color: #ccc;
+        }
+        @media screen and (max-width: 991.98px) {
+            .layar-dalam {
+            width: 90%;
+            }
+            .blog .area {
+                display: block;
+            }
+            .blog div.area div {
+                width: 100%;
+            }
+            .blog .area .gambar {
+                border-radius: 5px 5px 0px 0px;
+                height: 200px;
+            }
+        }
+    </style>
+  </head>
+  <body>
+      <main>
+        <section class="abuabu" id="blog">
+          <div class="layar-dalam">
+            <h3>Pesona Indonesia</h3>
+            <p class="ringkasan">
+              Enjoy the stunning natural beauty and amazing cultural diversity of Indonesia
+              <br>Come and witness its charm firsthand!
+            </p>
+            <form class="example" action="action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <div class="blog">
+              <div class="area">
+                <div
+                  class="gambar"
+                  style="background-image: url('contoh gambar2.jpg')"
+                ></div>
+                <div class="text">
+                  <article>
+                    <h4><a href="#">What About Nihiwatu?</a></h4>
+                    <p>
+                      Nihiwatu Beach, a hidden paradise on Sumba Island, 
+                      offers soft white sand and enticing waves for surfing enthusiasts.
+                    </p>
+                  </article>
+                </div>
+              </div>
+              <div class="area">
+                <div>
+                  <iframe width="230" height="310" src="https://www.youtube.com/embed/D-VSQz3fUfk" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="text">
+                  <article>
+                    <h4><a href="#">What About Bromo?</a></h4>
+                    <p>
+                      Mount Bromo, the majestic volcanic peak in Bromo Tengger Semeru National Park, 
+                      features incredible views of the active volcanic crater, sea of sand and vast sky.
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
+            <nav>
+                <h5>Copyright Atta. All right reserved</h5>
+            </nav>
+        </footer>
+      </main>
+  </body>
+</html>
