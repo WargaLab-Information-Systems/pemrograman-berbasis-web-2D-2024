@@ -1,0 +1,16 @@
+
+.image-container {
+    display: flex;
+    align-items: center;
+}
+.text-success.no-decoration {
+    text-decoration: none;
+    font-weight: bold;
+}
+.p-container {
+max-width: fit-content;
+margin: 325px;
+margin-top: 0%;
+margin-bottom: 0%;
+text-align: center;
+}
