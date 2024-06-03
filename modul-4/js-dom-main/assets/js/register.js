@@ -101,8 +101,9 @@ const validateConfPassword = () => {
     confPasswordValidation.innerText =
       "Konfirmasi password harus sesuai dengan password";
   } else {
-    confPassword.classList.add("is-valid");
     confPassword.classList.remove("is-invalid");
+    confPassword.classList.add("is-valid");
+    
   }
 };
 
