@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODUL 2</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #F1F6F9;
+        }
+
+        nav{
+            width: 100%;
+            top: 0;
+            position:fixed;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            overflow: hidden;
+            background-color: #212A3E;
+            font-family:sans-serif;
+        }
+
+        li {
+            float:left;
+        }
+
+        li a, .dropdown-content a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        li a:hover, .dropdown-content a:hover {
+            background-color: #9BA4B5;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #394867;
+            min-width: 150px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        article {
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            margin-top: 50px;
+        }
+
+        article p{
+            font-size:17px;
+            width: 640px;
+            text-align: justify;
+            font-family: Arial;
+        }
+
+        #JJK {
+            margin-left: 10px;
+            width: 700px;
+            border-radius: 10px;
+        }
+
+        .card {
+             width: 400px;
+             justify-content: center;
+             margin-left: 80px;
+             padding: 15px;
+             background-color: rgba(25, 52, 208, 0.118); 
+             border-radius: 10px;
+        }
+
+        .card h2 {
+            text-align: center;
+            color: black;
+        }
+
+        .card p {
+            text-align: justify;
+            color: #1e1c1c;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="dropdown">
+                <a href="#">News</a>
+                <div class="dropdown-content">
+                    <a href="#card1">News 1</a>
+                    <a href="#card2">News 2</a>
+                </div>
+            </li>
+            <label for="" style="margin:0; margin-right: 30px; margin-top: 3px; padding: 5px; float: right;"><img src="Jujutsu Kaisen.png" width="90px"></label>
+        </ul>
+    </nav>
+    <article>
+        <p><b>Jujutsu Kaisen</b>
+            merupakan manga (komik jepang) yang sangat populer yang kemudian diadaptasi menjadi serial anime.
+            Manga ini mengisahkan Yuji yang masuk ke Klub Penelitian Ilmu Gaib, agar bisa bersantai dan bergaul dengan para senior.  
+            Sayang, senior-seniornya telah membuka segel dari jimat kutukan tingkat tinggi di sekolahnya, dan menarik roh kutukan muncul.
+            Jimat tersebut menarik Jurei, yaitu makhluk mirip monster yang muncul melalui emosi negatif manusia. <br><br>
+            Yuji yang tidak mampu mengalahkan Jurei akhirnya menelan jimat kutukan berupa "jari" dari Ryomen Sukuna, dan menjadi wadah dari Sukuna, 
+            roh terkuat yang pernah ada. Hal itu untuk melindungi teman dan senior-seniornya. 
+            Hebatnya lagi, Yuji masih bisa mengendalikan tubuhnya meski telah dirasuki.
+            Jujutsu Kaisen menjadi manga terpopuler di Jepang, bahkan bersaing ketat dengan Demon Slayer: Kimetsu no Yaiba. <br><br>
+            Setelah diterbitkan untuk pertama kalinya pada tahun 2018, Jujutsu Kaisen telah memenangkan berbagai penghargaan, 
+            termasuk Anime of the Year dalam Crunchyroll Anime Awards 2021.
+            Selain itu, manga ini juga telah mencapai penjualan lebih dari 50 juta kopi di seluruh dunia hingga tahun 2023. 
+            Dengan plot yang memikat dan karakter-karakter yang memiliki kedalaman emosional,
+            Jujutsu Kaisen terus mendapatkan penggemar baru dan menjadikan manga ini sebagai salah satu yang terbaik dalam dekade ini.  
+        </p>
+        <br>
+        <img src="JJK.png" id="JJK">
+    </article>
+    <aside>
+        <div class="card" id="card1">
+            <h2>NEWS 1</h2>
+            <img src="Cvolume26.jpg" style="width: 100%">
+            <p style="line-height: 1.5;"><b>VOLUME 26</b> - Saat ini, alur ceritanya masih menceritakan pertarungan Yuji Itadori dan para penyihir Jujutsu yang masih hidup.
+                Saat si Raja Kutukan Sukuna terus melawan mereka dengan mudahnya, kayaknya pertarungan dalam ShinjukU Showdown masih belum berakhir. Ini semua bermula saat Satoru Gojo jadi sorotan nih, guys.
+                Jujutsu Kaisen memulai alur Shinjuku Showdown dengan pertarungan yang sangat dinantikan antara Satoru Gojo dan Sukuna. Punya awal yang cukup mengejutkan ketika dua orang terkuat di era masing-masing memamerkan kekuatan mereka.
+                Tapi di akhir yang lebih mengejutkan dari pertarungan dengan pemenang yang tidak diharapkan oleh siapapun, terungkap bahwa kita mungkin tidak akan melihat Gojo beraksi untuk waktu yang lama.
+                Di sampul volume ke-26, Satoru Gojo tampak menyeringai di balik senyumannya. Kostum yang dikenakannya seperti latar suasana penuh salju. 
+            </p>
+        </div>
+        <br>
+        <div class="card" id="card2">
+            <h2>NEWS 2</h2>
+            <img src="DE.jpg" style="width: 100%;">
+            <p style="line-height: 1.5;"><b>ANIME</b> - Jujutsu Kaisen Season 2 telah mencapai finalnya, di mana episode 23 menjadi penutup untuk Shibya Incident Arc.
+                Dengan berakhirnya Jujutsu Kaisen Season 2, bukan berarti anime tersebut selesai. 
+                Kabar baiknya, Jujutsu Kaisen akan tetap lanjut lewat Season 3 yang baru-baru ini diumumkan mengadapatasi Culling Game arc.
+                Culling Game arc adalah arc yang ke-9 di manga Jujutsu Kaisen.
+                Pada arc ini akan mengikuti Yuji Itadori, Megumi Fushiguro dan sekutu lainnya saat mereka memasuki Culling Game dengan tujuan menyelamatkan Tsumiki Fushiguro dari partisipasi, 
+                membebaskan Gojo dari Prison Realm dan melindungi Tengen dari Kenjaku.
+            </p>
+        </div>
+    </aside>
+    <br>
+</body>
+</html>

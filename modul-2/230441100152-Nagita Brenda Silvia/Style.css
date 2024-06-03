@@ -1,0 +1,78 @@
+body h1{
+    color: #77a2ff;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav {
+    background-color: #098bb3;
+    padding: 20px;
+    margin: 0%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #77a2ff;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #68b6ff;
+}
+.gambar {
+    height: 60vh;
+    background-image: url('Crochet shoulder bag motif 3D kotak-kotak __ tas rajut.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 25px;
+    margin: 30px;
+    
+}
+.column {
+    width: 100%;
+    padding: 5px 10pxpx;
+    color: #000000;
+    margin: 30px;
+}
+.column h2{
+    color: #68b6ff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+   
