@@ -1,0 +1,34 @@
+.container .row .d-flex .text__logo {
+  font-size: 26px;
+}
+
+.container .row .col-6 .wrapper__img__regis {
+  background-color: #ebebeb;
+  border-radius: 20px;
+}
+
+.container .row .col-6 .p-5 p {
+  color: #313131;
+  font-size: 16px;
+}
+
+.container .row .col-6 .p-5 form .form-check label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.container .row .col-6 .p-5 .d-grid .btn {
+  background-color: #515def;
+  font-weight: 500;
+  color: #fff;
+}
+
+.container .row .col-6 .p-5 .text-center {
+  font-weight: 500;
+}
+
+.container .row .col-6 .p-5 .or__signup {
+  color: #313131;
+  font-size: 14px;
+  font-weight: 400;
+}
