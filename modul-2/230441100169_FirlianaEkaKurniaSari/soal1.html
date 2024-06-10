@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Web Page</title>
+<style>
+  /* CSS untuk gambar */
+  .image-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .image-container img {
+    width: 850px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* CSS untuk navigasi */
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  /* CSS untuk layout */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* CSS untuk dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f6f7;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+</style>
+</head>
+<body>
+  <!-- Navigasi -->
+  <nav>
+    <a href="https://www.exploremadura.com/2020/09/pantai-sembilan-gili-genting.html">Home</a>
+    <a href="https://www.google.com/maps/place/Pantai+Sembilan/@-7.1751703,113.9218159,15z/data=!4m2!3m1!1s0x0:0x5818009169d7abb7?sa=X&ved=1t:2428&ictx=111">Destinasi</a>
+    <div class="dropdown">
+      <a href="https://www.tiket.com/to-do/open-trip-gili-labak-pantai-9-madura-by-go-explore">Paket Wisata</a>
+      <div class="dropdown-content">
+        <a href="https://campatour.com/paket-wisata-madura/">"paket 1"</a>
+        <a href="https://campatour.com/paket-wisata-madura/">"paket 2"</a>
+        <a href="https://campatour.com/paket-wisata-madura/">"paket 3"</a>
+      </div>
+    </div>
+    <a href="https://www.exploremadura.com/p/kontak-wisata-madura.html">Information Contact</a>
+  </nav>
+  
+  <!-- Layout -->
+  <div class="container">
+    <h1><center>DINAS PARIWISATA KOTA SUMENEP</center></h1>
+    <!-- Gambar -->
+    <div class="image-container">
+      <img src="pantai sembilan.jpeg" alt="wisata kota sumenep">
+    </div>
+    <!-- Isi konten -->
+    <p>Pulau yang memiliki julukan Pulau Garam ini berada di seberang Surabaya dan memiliki sebuah spot wisata menarik dengan nama Pantai Sembilan. 
+      Tempat ini berada di sebuah Kepulauan Gili Genting. Keberadaan Pantai Sembilan secara spesifik berada di Kecamatan Gili Genting, Sumenep.
+      Yang menjadi daya tarik dari tempat tersebut karena pulaunya memiliki bentuk angka sembilan. Selain itu juga kejernihan air laut yang 
+      Dimilikinya, adapun fasilitas-fasilitas yang disediakan dari wisata tersebut;ayunan,bungalow,kuliner khas madura, water sport.
+      Hal ini yang menjadi daya tarik pengunjung terhadap wisata tersebut. </p>
+  </div>
+</body>
+</html>
