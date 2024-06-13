@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum M3 - PBW</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          container: {
+            center: true,
+            padding: {
+              DEFAULT: "1rem",
+              sm: "2rem",
+              lg: "4rem",
+              xl: "5rem",
+              "2xl": "6rem",
+            },
+          },
+          extend: {
+            colors: {
+              primary: "#4CAF4F",
+              dark: "#0f172a",
+              silver: "#F5F7FA",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header class="fixed top-0 right-0 z-30 w-full py-4 backdrop-blur">
+      <nav class="container flex items-center justify-between">
+        <a
+          href="#"
+          class="block text-lg font-bold transition-colors duration-300 text-dark hover:text-primary"
+        >
+          <img src="assets/icons/Icon.svg" alt="Icon" class="inline" />
+          Nexcent
+        </a>
+
+        <ul class="flex items-center gap-x-10">
+          <li>
+            <a
+              href="#"
+              class="block text-base font-normal transition-colors duration-300 text-dark hover:text-primary"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block text-base font-normal transition-colors duration-300 text-dark hover:text-primary"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block text-base font-normal transition-colors duration-300 text-dark hover:text-primary"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block text-base font-normal transition-colors duration-300 text-dark hover:text-primary"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block text-base font-normal transition-colors duration-300 text-dark hover:text-primary"
+              >FAQ</a
+            >
+          </li>
+        </ul>
+
+        <div class="flex items-center gap-x-7">
+          <a
+            href="#"
+            class="block text-base font-normal transition-colors duration-300 text-primary hover:text-primary"
+            >Login</a
+          >
+          <a
+            href="#"
+            class="block px-3 py-2 text-base font-normal text-white rounded-md text-dark bg-primary"
+            >Sign Up</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section Start -->
+      <section class="min-h-screen py-24 bg-silver">
+        <div class="container">
+          <div class="flex flex-wrap items-center justify-between">
+            <div class="w-full md:w-1/2">
+              <h1 class="mb-6 text-3xl font-semibold lg:text-6xl">
+                Lessons and insight
+                <span class="block text-primary">from 8 years</span>
+              </h1>
+              <p class="mb-6">
+                Where to grow your business as a phptographer: site or social
+                media ?
+              </p>
+
+              <a href="#" class="px-5 py-2 text-white rounded bg-primary"
+                >Register</a
+              >
+            </div>
+            <div class="w-full lg:w-auto">
+              <figure class="lg:w-auto w-[300px]">
+                <img src="assets/img/Illustration.svg" alt="Illustration" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero Section End -->
+
+      <!-- Manage Section Start -->
+      <section class="pt-[5.5rem] pb-36">
+        <div class="container">
+          <h1 class="mb-2 text-4xl font-semibold text-center">
+            Manage your entire community
+            <span class="block">in a single system</span>
+          </h1>
+          <p class="mb-2 text-center">Who is Nexcent suitable for ?</p>
+          <div
+            class="flex flex-col items-center justify-between mt-6 lg:flex-row gap-x-10"
+          >
+            <div class="px-5 py-7">
+              <img src="assets/icons/Icon - 1.svg" alt="icon" class="mx-auto" />
+              <h2 class="mb-1 text-lg font-bold text-center">
+                Membership <span class="block">Organization</span>
+              </h2>
+              <p class="text-center">
+                Our membership management software provides full automation of
+                membership renewals and payments
+              </p>
+            </div>
+            <div class="px-5 py-7">
+              <img src="assets/icons/Icon - 2.svg" alt="icon" class="mx-auto" />
+              <h2 class="mb-1 text-lg font-bold text-center">
+                National <span class="block">Assosiation</span>
+              </h2>
+              <p class="text-center">
+                Our membership management software provides full automation of
+                membership renewals and payments
+              </p>
+            </div>
+            <div class="px-5 py-7">
+              <img src="assets/icons/Icon - 3.svg" alt="icon" class="mx-auto" />
+              <h2 class="mb-1 text-lg font-bold text-center">
+                Clubs And <span class="block">Groups</span>
+              </h2>
+
+              <p class="text-center">
+                Our membership management software provides full automation of
+                membership renewals and payments
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Manage Section End -->
+
+      <!-- Unseen Section Statrt -->
+      <section class="pt-[5.5rem] pb-36">
+        <div class="container">
+          <div class="flex flex-col items-center justify-between lg:flex-row">
+            <div class="w-full lg:w-auto">
+              <figure class="w-full">
+                <img
+                  src="assets/img/Illustration - 2.svg"
+                  alt="Illustration 2"
+                />
+              </figure>
+            </div>
+            <div class="w-full lg:w-1/2">
+              <h1 class="mb-5 text-4xl font-semibold">
+                The unseen of spending three
+                <span class="block">years at Pixelgrade</span>
+              </h1>
+              <p class="text-base mb-7">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+                qui nam, minima sunt culpa quae ex molestias quia accusamus
+                necessitatibus quo beatae sequi fuga. Sit modi similique aperiam
+                dicta aliquam?
+              </p>
+
+              <a href="#" class="px-5 py-2 text-white rounded-sm bg-primary"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Unseen Section End -->
+
+      <!-- Helping Section Start -->
+      <section class="py-24 bg-silver">
+        <div class="container">
+          <div
+            class="flex flex-col items-center lg:justify-between lg:flex-row py-7"
+          >
+            <div class="w-full lg:w-1/2">
+              <h1 class="mb-2 text-3xl font-semibold">
+                Helping a local
+                <span class="block text-primary">business reinvent itself</span>
+              </h1>
+              <p>We reached here with our hard work and dedication</p>
+            </div>
+            <div
+              class="flex flex-wrap items-center w-full mt-4 lg:mt-0 lg:justify-end gap-x-16 gap-y-9 lg:w-1/2"
+            >
+              <div class="flex w-1/3">
+                <img
+                  src="assets/icons/Icon - 1.png"
+                  alt="icon4"
+                  class="object-contain w-auto"
+                />
+                <div class="ps-4">
+                  <h2 class="text-2xl font-semibold">2,245,341</h2>
+                  <p>Members</p>
+                </div>
+              </div>
+              <div class="flex w-1/3">
+                <img
+                  src="assets/icons/Icon - 2.png"
+                  alt="icon4"
+                  class="object-contain w-auto"
+                />
+                <div class="ps-4">
+                  <h2 class="text-2xl font-semibold">46,328</h2>
+                  <p>Clubs</p>
+                </div>
+              </div>
+              <div class="flex w-1/3">
+                <img
+                  src="assets/icons/Icon - 6.svg"
+                  alt="icon4"
+                  class="w-auto"
+                />
+                <div class="ps-4">
+                  <h2 class="text-2xl font-semibold">828,867</h2>
+                  <p>Event Bookings</p>
+                </div>
+              </div>
+              <div class="flex w-1/3">
+                <img
+                  src="assets/icons/Icon - 7.svg"
+                  alt="icon4"
+                  class="w-auto"
+                />
+                <div class="ps-4">
+                  <h2 class="text-2xl font-semibold">1,926,438</h2>
+                  <p>Payments</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Helping Section End -->
+
+      <!-- Caring Start -->
+      <section class="pt-24 pb-32">
+        <div class="container">
+          <h1 class="mb-3 text-3xl font-semibold text-center">
+            Caring is the new marketing
+          </h1>
+          <p class="text-center text-balance">
+            The Nexcent blog is the best place to read about the latest
+            membership insights, trends and more. See who's joining the
+            community, read about how our community are increasing their
+            membership income and lot's more.​
+          </p>
+          <div
+            class="flex flex-col items-center justify-between mt-4 mb-3 gap-y-24 lg:gap-y-0 lg:flex-row"
+          >
+            <div class="relative w-[350px]">
+              <figure class="w-full rounded">
+                <img src="assets/img/image 18.png" alt="Illustration" />
+              </figure>
+              <div
+                class="absolute w-[85%] h-[176px] px-8 py-7 rounded-md shadow-lg right-[1.6rem] top-36 bg-silver"
+              >
+                <h3 class="mb-4 text-center">
+                  Creating Streamlined Safeguarding Processes with OneRen
+                </h3>
+                <a
+                  href="#"
+                  class="block mb-2 font-medium text-center text-primary"
+                  >Read More
+                  <img
+                    src="assets/icons/Right.svg"
+                    alt="Arrow Right"
+                    class="inline"
+                /></a>
+              </div>
+            </div>
+            <div class="relative w-[350px]">
+              <figure class="w-full rounded">
+                <img src="assets/img/image 19.png" alt="Illustration" />
+              </figure>
+              <div
+                class="absolute w-[85%] h-[176px] px-8 py-7 rounded-md shadow-lg right-[1.6rem] top-36 bg-silver"
+              >
+                <h3 class="mb-4 text-center">
+                  Creating Streamlined Safeguarding Processes with OneRen
+                </h3>
+                <a
+                  href="#"
+                  class="block mb-2 font-medium text-center text-primary"
+                  >Read More
+                  <img
+                    src="assets/icons/Right.svg"
+                    alt="Arrow Right"
+                    class="inline"
+                /></a>
+              </div>
+            </div>
+            <div class="relative w-[350px]">
+              <figure class="w-full rounded">
+                <img src="assets/img/image 20.png" alt="Illustration" />
+              </figure>
+              <div
+                class="absolute w-[85%] h-[176px] px-8 py-7 rounded-md shadow-lg right-[1.6rem] top-36 bg-silver"
+              >
+                <h3 class="mb-4 text-center">
+                  Creating Streamlined Safeguarding Processes with OneRen
+                </h3>
+                <a
+                  href="#"
+                  class="block mb-2 font-medium text-center text-primary"
+                  >Read More
+                  <img
+                    src="assets/icons/Right.svg"
+                    alt="Arrow Right"
+                    class="inline"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Caring End -->
+
+      <section class="py-6 bg-silver">
+        <div class="flex flex-col items-center justify-center">
+          <h1 class="my-10 text-5xl font-semibold text-center">
+            Pellentesque subcipit
+            <span class="block">fringilla libero eu.</span>
+          </h1>
+          <a
+            href="#"
+            class="px-4 py-2 mx-auto text-center text-white rounded bg-primary"
+          >
+            Get a Demo
+            <span class="ps-1">
+              <img
+                src="assets/icons/Icon Right.svg"
+                alt="Icon right"
+                class="inline"
+              />
+            </span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-white bg-[#263238]">
+      <div class="container">
+        <div class="flex flex-col justify-between lg:flex-row py-14">
+          <div class="w-full lg:w-[40%]">
+            <a
+              href="#"
+              class="block mb-8 text-3xl font-bold transition-colors duration-300 hover:text-primary"
+            >
+              <img src="assets/icons/Icon.svg" alt="Icon" class="inline" />
+              Nexcent
+            </a>
+            <p class="mb-10 text-sm text-[#d1d1d1]">
+              Copyright © 2020 Nexcent ltd.
+              <span class="block">All rights reserved </span>
+            </p>
+            <div class="flex gap-x-3">
+              <a href="#">
+                <img
+                  src="assets/icons/Social Icons - 3.svg"
+                  alt="Social Icon"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="assets/icons/Social Icons - 1.svg"
+                  alt="Social Icon"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="assets/icons/Social Icons - 2.svg"
+                  alt="Social Icon"
+                />
+              </a>
+
+              <a href="#">
+                <img
+                  src="assets/icons/Social Icons - 4.svg"
+                  alt="Social Icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="w-full lg:w-[60%]">
+            <div class="flex flex-col lg:flex-row">
+              <div class="w-full mb-3 lg:mb-0 lg:w-1/3">
+                <h1 class="mb-4 text-lg font-semibold">Company</h1>
+                <ul class="text-sm leading-7 text-[#d1d1d1]">
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                </ul>
+              </div>
+              <div class="w-full mb-3 lg:mb-0 lg:w-1/3">
+                <h1 class="mb-4 text-lg font-semibold">Support</h1>
+                <ul class="text-sm leading-7 text-[#d1d1d1]">
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Tersm of service</a></li>
+                  <li><a href="#">Legal</a></li>
+                  <li><a href="#">Privacy policy</a></li>
+                  <li><a href="#">Status</a></li>
+                </ul>
+              </div>
+              <div class="w-full mb-3 lg:mb-0 lg:w-1/3">
+                <h1 class="mb-4 text-lg font-semibold">Stay up to date</h1>
+                <div class="relative w-full">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Your email address"
+                    class="py-2 px-3 rounded-md outline-none bg-[#515b60] text-[#d1d1d1] w-full text-sm"
+                  />
+                  <img
+                    src="assets/icons/send.svg"
+                    alt="send icon"
+                    class="absolute -translate-y-1/2 right-3 top-1/2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
