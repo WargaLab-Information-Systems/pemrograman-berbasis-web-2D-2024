@@ -1,0 +1,85 @@
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+.icon-group {
+    display: flex;
+    align-items: center;
+  }
+  
+.icons {
+    margin-right: 20px;
+  }
+
+
+  .card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 200px; /* Mengatur tinggi gambar */
+    object-fit: cover; /* Menjaga proporsi gambar */
+    border-radius: 10px 10px 0 0; /* Mengatur radius sudut hanya di sudut atas */
+  }
+  .card-text {
+    position: center;
+    text: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 20px; 
+    border-top: 2px solid #ddd; 
+    border-radius: 0 0 10px 10px; 
+    margin: 0;
+  }
+ 
+  
+  .main-contact {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px; 
+    background-color: #103e13; 
+    color: white;
+  }
+  .main-contact > div {
+    flex: 1; /* Memanfaatkan ruang yang tersedia secara merata */
+  }
+
+  .icons a i {
+    color: white;
+  }
+  .main-contact li {
+    list-style: none; 
+  }
+  
+  .main-contact li a {
+    text-decoration: none; 
+    color: #fff; 
+  }
+  
+  .stay-up-to-date {
+  padding: 20px;
+}
+
+.stay-up-to-date h3 {
+  margin-bottom: 10px; /* Jarak antara judul dan formulir */
+}
+
+.email-form {
+  display: flex; /* Mengatur tata letak elemen secara horizontal */
+}
+
+.email-form input[type="email"] {
+  flex: 1; /* Menyesuaikan lebar input */
+  padding: 10px; /* Padding untuk input */
+  border-radius: 5px; /* Membuat sudut input menjadi melengkung */
+}
+
+
+

@@ -1,0 +1,108 @@
+/* mengganti font dan menambah gambar */
+body {
+    background-image: url(Untitled.jpeg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* mengatur tata letak elemen dalam halaman web */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* memberi warna di header */
+header {
+    background-color: #057a92;
+    color: #fefeff;
+    padding: 20px 0;
+    
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+}
+
+/* awalnya kebawah menjadi ke samping */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: relative;
+}
+
+/* mengatur letak menu */
+nav ul li {
+    margin: 0 10px;
+    position: relative;
+    display: inline;
+    margin-right: 20px;
+}
+
+/*mengatur warna dan merapikan menu*/
+nav ul li a {
+    color: #f1e5e5;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: 0.3;
+    -webkit-transition: 0.3;
+    -moz-transition: 0.3;
+    -ms-transition: 0.3;
+    -o-transition: 0.3;
+}
+
+/* meratakan dropdown menu */
+nav ul ul li {
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+/* mengatur lebar di */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    padding: 8px;
+}
+/* membuat kover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* memberi warna di dalam tag section */
+.hero {
+    background-color: #2e4853;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/*mengatur display gambar */
+.image {
+    display: inline-block;
+    margin: 20px;
+}
+/* mengatur ukuran gambar */
+.image img {
+    max-width: 100%;
+}
+
+/* terletak dibagian bawah/akhir */
+footer {
+    background-color: #1b1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* MEMBERI WARNA DALAM DROPDOWN MENU */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #4261a2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(149, 19, 19, 0.2);
+}
