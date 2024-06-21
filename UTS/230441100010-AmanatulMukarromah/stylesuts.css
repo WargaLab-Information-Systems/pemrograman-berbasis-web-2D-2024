@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+
+  }
+
+  header {
+   text-align: center;
+   label {color: #1852f3};
+   background-color: aliceblue;
+}
+
+section  {
+    text-align: left;
+
+  }
+  
+  footer {
+    background-color: #1852f3;
+  }
