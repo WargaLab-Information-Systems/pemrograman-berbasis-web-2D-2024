@@ -1,0 +1,23 @@
+div.footer {
+    background-color: blue;
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: auto;
+  }
+
+  
+
+  newsletter-subscribe .subscribe-box{
+    padding: 15px 15px;
+    font-family: "Playfair Display",sans-serif;       
+}
+
+newsletter-subscribe .subscribe-box input.email-address{
+    background:#fff;
+    border:1px solid #666666;
+    color: #c5b7b7;
+    padding: 5px 10px 6px 12px;
+    font-family: "Playfair Display",sans-serif;
+}

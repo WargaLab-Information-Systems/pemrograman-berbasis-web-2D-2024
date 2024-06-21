@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arlecchino Fanpage Base</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: whitesmoke;
+            color: black;
+        }
+
+        /* Header */
+        header {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Navigation */
+        .navig {
+            background-color: grey;
+            padding: 11px;
+        }
+
+        nav ul {
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: ghostwhite;
+            padding: 10px;
+            transition: background-color 3s;
+        }
+
+        nav ul li a:hover {
+            background-color: cyan;
+        }
+
+        /* konten utama */
+        .container {
+            max-width: 1130px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .image-container {
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+        }
+
+        /* Footer */
+        footer {
+            background-color: grey;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Dropdown */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: grey;
+            min-width: 80px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            font-size: small;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: white;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Arlecchino Fanpage Base</h1>
+    </header>
+
+    <nav class="navig">
+        <ul>
+            <li><a href="tes.html">Home</a></li>
+            <li><a href="#">Premium</a></li>
+            <li class="dropdown">
+                <a href="#">Detail Info</a>
+                <div class="dropdown-content">
+                    <a href="#">Her Hobby</a>
+                    <a href="#">Secrets About Her</a>
+                    <a href="#">Her Daily Life</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">Feedback</a>
+                <div class="dropdown-content">
+                    <a href="Critics.html">Critics</a>
+                    <a href="#">Suggestion</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="gambaraja.jpeg" alt="Sample Image">
+        </div>
+
+        <h2>Helloo Everybody!!!! Welcome to my website</h2>
+        <p>
+            Do not share this page, if you know this page, ENJOY THIS PAGE FOR YOURSELF, DO NOT SPREAD IT!</p>
+    </div>
+
+    <footer>
+        &copy; Arlecchino Fanpage Base
+    </footer>
+
+</body>
+</html>
