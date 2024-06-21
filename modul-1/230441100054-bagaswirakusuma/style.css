@@ -1,0 +1,81 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #524f48;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #808080;
+}
+h1 {
+    text-align: left;
+    float: left;
+    font-size: 40px;
+}
+.card-img-top {
+    width: 20%;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+}
+h2 {
+    text-align: center;
+    clear: both; 
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h3 {
+    margin-bottom: 10px;
+}
+.section ul {
+    padding-left: 20px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+a:hover {
+    background-color: #ddd;
+    color: black;
+    justify-content: center;
+}
+.previous {
+    background-color: #04AA6D;
+    color: white;
+    float: left;
+}
+.next {
+    background-color: #04AA6D;
+    color: white;
+    float: right;
+}
+.round {
+    border-radius: 50%;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td {
+border: 2px solid black;
+border-collapse: collapse;
+text-align: center;
+font-weight: bold;
+background-color: #808080;
+}
+td:first-child{
+width: 40px; ;
+}
+td:nth-child(2){
+    width: 250px;
+}
+td:last-child{
+    width: 125px;
+}
