@@ -1,0 +1,111 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    width: auto;
+    margin: auto;
+    position: relative;
+}
+
+.logo img{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    float: left;
+    padding: 1rem;
+    border-radius: 50px;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: Courier;
+    color: white;
+    
+    padding-top: 1rem;
+}
+
+.menu{
+    background-color: #660404;
+    color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.menu ul{
+    margin: 0px;
+    padding: 5px;
+    background: none;
+    display: block;
+    /* float: right; */
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+.menu ul li a:hover{
+    display: block;
+    color: rgb(223, 4, 4);
+    background: #171515;
+    box-shadow: inset 0px 0px 5px;
+}
+
+.menu ul li .dropdown{
+    display: none;
+}
+
+.menu ul li:hover .dropdown{
+    display: block;
+    background: black;
+    position: absolute;
+    padding: 10px;
+}
+
+.menu ul li:hover .dropdown li {
+    display: block;
+}
+
+.isi{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+.isi .teksnav {
+    font-size: 20%;
+}
+
+.isi img{
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.isi .teks{
+    margin-top: 150px;
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
