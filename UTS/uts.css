@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #E1F0DA;
+}
+
+.header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    color: #074173;
+}
+
+.header .txt{
+    padding-top: 25px;
+    color: black;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: absolute;
+    width: 30%;
+    background: #f1f1f1;
+    margin-left: 500px;
+    border-radius: 50px;
+}
+  
+  /* Style the submit button */
+form.example button {
+    float: right;
+    width: 10%;
+    height: 40px;
+    margin-right: 500px;
+    border-radius: 50px;
+    border: 1px solid grey;
+    background-color: #0b7dda;
+}
+  
+form.example button:hover {
+    background: #0b7dda;
+}
+  
+  /* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.ket h2{
+    color: #074173;
+    text-decoration: none;
+    list-style: none;
+}
