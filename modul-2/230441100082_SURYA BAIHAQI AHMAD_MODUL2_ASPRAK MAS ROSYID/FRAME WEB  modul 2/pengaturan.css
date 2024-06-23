@@ -1,0 +1,78 @@
+body {
+  background-image:url("logo rektorat.jpg");
+  background-size:100% 100%;
+  /* margin:auto; */
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+}
+
+.menu {
+    font-family:tahoma;
+    font-weight:bold;
+    height:80px;
+    width:100%;
+    background:black;
+    border-radius:5px;
+    font-size:20px;
+}
+
+label{
+    font-family:comic sans-serif;
+    font-size:20pt;
+    color:white;
+    margin:10px;
+    padding:5px;
+    float:left;
+}
+/* mengatur teks droup down  */
+.menu ul{
+    margin:0px;
+    padding:5px;
+    background:none;
+    display:block;
+    float:center;
+}
+ .menu ul li {
+  list-style:none;
+  display:inline-block;
+ }
+
+.menu ul li a {
+    display:block;
+    text-decoration:none;
+    padding:20px;
+    color:#add;
+}
+
+
+.menu ul li a:hover {
+  display:block;
+  color:green;
+  background:gray;
+  box-shadow:inset 0px opx 30px gold;
+}
+/* tidak menmpil kan li 2 */
+.menu ul li .droupdown {
+    display:none;
+} 
+/* menampilkan */
+ .menu ul li:hover.droupdown{
+    display:block;
+    background:blue;
+    position:absolute;
+    padding:20px;/*kotak web*/
+ }
+/* vertikal */
+ .menu ul li:hover .droupdown li {
+    display:block;
+ }
+ .menu ul li:hover .droupdown li a {
+    padding:10px;
+    border-radius:20px;
+    margin-bottom:20px;
+ }
+ .menu ul li:hover .droupdown li a:hover {
+    background:#222;
+    box-shadow:inset 0px 0px 5px #000;
+    
+ }
