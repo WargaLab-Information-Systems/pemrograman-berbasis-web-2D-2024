@@ -1,0 +1,26 @@
+tr { font-family: Arial, verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 100px;
+    font-variant: small-caps;
+    line-height: normal;
+    color: blueviolet;
+}
+
+h1{ font-variant: small-caps;
+    font-style: oblique;
+    text-align: center;
+text-decoration: underline;
+text-transform: lowercase;
+word-spacing: 1px;
+}
+
+body {
+    background-image: url();
+}
+div.footer {
+    background-color: blue;
+    color: black;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: auto}
